@@ -9,15 +9,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    private var operation = Math()
     override func viewDidLoad() {
         super.viewDidLoad()
-       getLinearFunctionIntegerValue(k: 0, x: 0, b: 0)
+        operation.getLinearFunctionIntegerValue(k: 0, x: 0, b: 0)
     }
-    func getLinearFunctionIntegerValue(k: Int, x: Int, b: Int)  {
-        let y = k*x + b
-        print("k = \(k)/n x = \(x)\n b = \(b)\n y = \(y)")
-        
-    }
+    
     
 }
 
