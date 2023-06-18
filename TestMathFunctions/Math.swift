@@ -8,10 +8,9 @@
 import Foundation
 
 struct Math {
-    ///Эта же формула используется для построения графика обратной пропорциональности
-    func determineLinearEquationWithOneIntegerVariable(a: inout Int, x: inout Int, b: inout Int) {
-      b = a * x
-       
+   
+    func determineLinearEquationWithOneIntegerVariable(a: Int, x:  inout Int, b: Int) {
+
         if a == 0 && b != 0 {
             fatalError("Нет корней")
         }
@@ -19,10 +18,11 @@ struct Math {
             x = 0
         }
         
-        //На данный момент в языке Swift нет свойства для обозначения бесконечности целых чисел
         else if a == 0 && b == 0 {
-            x = Int.random(in: 0...100)
+            print("x = \(x), a = \(a), b = \(b)")
+           
         }
+        
     }
     
     func getLinearFunctionIntegerValue(k: Int, x: Int, b: Int, y: inout Int)  {
