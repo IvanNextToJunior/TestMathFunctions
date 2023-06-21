@@ -16,15 +16,9 @@ struct Math {
         
         //В данной программе это условие не сработает, поскольку b на этапе компиляции равен nil. Но в математике такое может встречаться.
         if a == 0 && b != 0 {
-            
-            if floor(b!) == b {
-                let tempB = floor(b!)
-                print(tempB)
-                b = tempB
-            }
-            
             fatalError("Нет корней")
         }
+        
         else if a != 0 && b == 0 {
             x = 0
         }
@@ -35,7 +29,7 @@ struct Math {
             
         }
         
-        print("x = \(x)\n a = \(a)\n b = \(String(describing: b))\n")
+        print("x = \(x)\n a = \(a)\n b = \(floor(b!) == b ? String(describing:Int(b!)) : String(describing: b) )\n")
     }
     
     func getLinearFunctionIntegerValue(k: Double, x: Double, b: Double, y: inout Double?)  {
