@@ -29,7 +29,7 @@ struct Math {
             
         }
         
-        print("x = \(x)\n a = \(a)\n b = \(floor(b!) == b ? String(describing:Int(b!)) : String(describing: b) )\n")
+        print("x = \(x)\n a = \(a)\n b = \(floor(b!) == b ? String(describing:Int(b!)) : String(describing: b))\n")
     }
     
     func getLinearFunctionIntegerValue(k: Double, x: Double, b: Double, y: inout Double?)  {
