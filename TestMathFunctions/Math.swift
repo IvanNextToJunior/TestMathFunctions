@@ -9,25 +9,38 @@ import Foundation
 
 struct Math {
    
-    func determineLinearEquationWithOneIntegerVariable(a: Int, x:  inout Int, b: Int) {
-
+    ///Эта же формула используется для построения графика прямой пропорциональности
+    func determineLinearEquationWithOneIntegerVariable(a: Double, x: inout Double, b: inout Double?) {
+        
+        b = a * x
+        
+        //В данной программе это условие не сработает, поскольку b на этапе компиляции равен nil. Но в математике такое может встречаться.
         if a == 0 && b != 0 {
+            
+            if floor(b!) == b {
+                let tempB = floor(b!)
+                print(tempB)
+                b = tempB
+            }
+            
             fatalError("Нет корней")
         }
         else if a != 0 && b == 0 {
             x = 0
         }
         
+        
         else if a == 0 && b == 0 {
-            print("x = \(x), a = \(a), b = \(b)")
-           
+            x = .infinity
+            
         }
         
+        print("x = \(x)\n a = \(a)\n b = \(String(describing: b))\n")
     }
     
-    func getLinearFunctionIntegerValue(k: Int, x: Int, b: Int, y: inout Int)  {
+    func getLinearFunctionIntegerValue(k: Double, x: Double, b: Double, y: inout Double?)  {
       y = k * x + b
-        print("k = \(k)/n x = \(x)\n b = \(b)\n y = \(y)")
+        print("k = \(k)\n x = \(x)\n b = \(b)\n y = \(String(describing: y))")
         
     }
 }

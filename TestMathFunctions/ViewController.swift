@@ -8,24 +8,20 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    private var a = (Int.min...Int.max).randomElement()!
-    private var x = (Int.min...Int.max).randomElement()!
-
-    private var operation = Math()
    
+    private var x: Double = 0
+    private var b: Double?
+    private var y: Double?
+   
+    private var operation = Math()
+  
     override func viewDidLoad() {
         super.viewDidLoad()
- 
+      
+        operation.determineLinearEquationWithOneIntegerVariable(a: 0, x: &x, b: &b)
+        operation.getLinearFunctionIntegerValue(k: 1, x: 1, b: 1, y: &y)
     }
     
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-        
-        //Эта же формула используется для построения графика прямой пропорциональности
-        operation.determineLinearEquationWithOneIntegerVariable(a: a, x: &x, b: a*x)
-        
-    }
     
 }
 
