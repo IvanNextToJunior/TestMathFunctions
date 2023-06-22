@@ -4,4 +4,5 @@
  Вообщем, это выражения со знаком "==".
  
 7. Линейное уравнение с одной переменной.
-![Снимок экрана 2023-06-15 в 17 22 19](https://github.com/IvanNextToJunior/TestMathFunctions/assets/58988299/ee612fcb-2e56-4a58-9d62-5952d70540bc)
+![Снимок экрана 2023-06-22 в 23 23 01](https://github.com/IvanNextToJunior/TestMathFunctions/assets/58988299/bfcadf83-946c-4d30-90a9-fa37cbad09d8)
+![Снимок экрана 2023-06-22 в 23 21 55](https://github.com/IvanNextToJunior/TestMathFunctions/assets/58988299/d2a6a879-ee0f-4175-a773-ff16eb884480)
