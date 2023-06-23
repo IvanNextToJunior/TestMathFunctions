@@ -5,4 +5,4 @@
  
 7. Линейное уравнение с одной переменной.
 ![Снимок экрана 2023-06-23 в 11 49 33](https://github.com/IvanNextToJunior/TestMathFunctions/assets/58988299/8552d303-1e91-4bc4-a149-effde9a8c7cc)
-![Снимок экрана 2023-06-23 в 11 50 55](https://github.com/IvanNextToJunior/TestMathFunctions/assets/58988299/7485a6b1-f5ac-4bce-8017-41ef05277edf)
+![Снимок экрана 2023-06-23 в 11 53 58](https://github.com/IvanNextToJunior/TestMathFunctions/assets/58988299/a00da0bc-86fa-41c0-863f-dc26a233377c)
