@@ -25,7 +25,7 @@ struct Math {
         
         // 0 мы не учитываем, поскольку он используется в предыдущем условии. Так, конечно, он в интервал входит
         else if a == 0 && b == 0 {
-            print("x = (\(x.getNegativeInfinity); 0) && x = (0; \(x.getPositiveInfinity))")
+            print("x ∈ (\(x.getNegativeInfinity); 0) ∪ x ∈ (0; \(x.getPositiveInfinity))")
             
         }
         
